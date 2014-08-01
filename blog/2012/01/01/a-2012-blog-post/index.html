@@ -4,12 +4,14 @@
 
     <meta charset="utf-8">
     <title>A 2012 blog post</title>
-    <meta name="description" content="Here is an example blog post. Everything after this paragraph &quot;after the break&quot;. On index pages and Atom feeds, it will become &quot;Continue reading...&quot;, if you configure them to include only the summary &quot;blurb&quot; before the break. some code...">
+    <meta name="description" content="Here is an example blog post.  Everything after this paragraph &quot;after the break&quot;. On index pages and Atom feeds, it will become &quot;Continue reading&quot;, if you configure them to include only the summary &quot;blurb&quot; before the break.  `some code`...">
     <meta name="author"      content="The Unknown Blogger">
     <meta name="keywords"    content="foo, bar, tag with spaces, baz">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
     <link rel="canonical" href="http://www.example.com/blog/2012/01/01/a-2012-blog-post/">
+
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -78,6 +80,7 @@
             <li><a href="/feeds/all.rss.xml">RSS</a></li>
           </ul>
         </div>
+      </div>
     </header>
     <div class="container">
       <div class="row">
@@ -89,57 +92,41 @@
 
 
 
-
-<article>
-
- <header>
-
-  <h1>A 2012 blog post</h1>
-
-  <p class="date-and-tags">
-   <time datetime="2012-01-01" pubdate="true">2012-01-01</time> :: <a href="/tags/foo.html">foo</a>, <a href="/tags/bar.html">bar</a>, <a href="/tags/tag-with-spaces.html">tag with spaces</a>, <a href="/tags/baz.html">baz</a></p>
+          <article>
+  <header>
+    <h1>A 2012 blog post</h1>
+    <p class='date-and-tags'>
+<time datetime="2012-01-01" pubdate="true">2012-01-01</time> :: <span class="tags"><a href="/tags/foo.html">foo</a>, <a href="/tags/bar.html">bar</a>, <a href="/tags/tag-with-spaces.html">tag with spaces</a>, <a href="/tags/baz.html">baz</a></span></p>
   </header>
 
+<p>Here is an example blog post.</p>
 
- <p>Here is an example blog post.</p>
+<p>Everything after this paragraph &ldquo;after the break&rdquo;. On index pages and Atom feeds, it will become &ldquo;Continue reading&hellip;&rdquo;, if you configure them to include only the summary &ldquo;blurb&rdquo; before the break.</p>
 
+<pre><code>some code</code></pre>
+<!-- more-->
 
- <p>Everything after this paragraph &ldquo;after the break&rdquo;. On index pages and Atom feeds, it will become &ldquo;Continue reading...&rdquo;, if you configure them to include only the summary &ldquo;blurb&rdquo; before the break.</p>
+<p>Here&rsquo;s some <a href="http://bullshitipsum.com/?paragraphs=2">Bullshit Ipsum</a>.</p>
 
+<p>Addelivery integrate ecologies e-markets standards-compliant utilize technologies aggregate addelivery viral&mdash;communities dynamic functionalities. Mindshare engineer viral A-list: cross-platform remix engage social cross-media social innovate distributed matrix experiences monetize utilize innovative. Action-items transition recontextualize sexy Cluetrain envisioneer, &ldquo;vortals communities evolve technologies sexy methodologies.&rdquo; Enhance grow compelling iterate architect matrix plug-and-play reinvent scale, distributed incentivize, extend.</p>
 
- <pre>some code</pre>
+<p>Revolutionary proactive. Target; envisioneer e-services sticky robust morph users methodologies, markets content supply-chains, granular monetize reinvent harness initiatives. Plug-and-play productize vortals integrate compelling aggregate, user-contributed, integrate web-enabled grow extend mindshare, repurpose world-class harness next-generation eyeballs solutions blogospheres extend. Rss-capable methodologies, &ldquo;vortals vertical,&rdquo; synthesize real-time user-contributed impactful utilize architect deploy ROI redefine design proactive strategic user-centric.</p>
 
+<p>Here&rsquo;s a footnote<sup><a href="#2012-01-01-a-2012-blog-post-footnote-1-definition" name="2012-01-01-a-2012-blog-post-footnote-1-return">1</a></sup>.</p>
 
- <p>Here&rsquo;s some <a href="http://bullshitipsum.com/?paragraphs=2">Bullshit Ipsum</a>.</p>
+<h2 id="code-blocks">Code blocks</h2>
 
+<p>Frog optionally uses <a href="http://pygments.org/">Pygments</a> if it&rsquo;s installed to do syntax highlighting. In your markdown using backtick code blocks you can specify a language:</p>
 
- <p>Addelivery integrate ecologies e-markets standards-compliant utilize technologies aggregate addelivery viral<span>&mdash;</span>communities dynamic functionalities. Mindshare engineer viral A-list: cross-platform remix engage social cross-media social innovate distributed matrix experiences monetize utilize innovative. Action-items transition recontextualize sexy Cluetrain envisioneer, &ldquo;vortals communities evolve technologies sexy methodologies.&rdquo; Enhance grow compelling iterate architect matrix plug-and-play reinvent scale, distributed incentivize, extend.</p>
-
-
- <p>Revolutionary proactive. Target; envisioneer e-services sticky robust morph users methodologies, markets content supply-chains, granular monetize reinvent harness initiatives. Plug-and-play productize vortals integrate compelling aggregate, user-contributed, integrate web-enabled grow extend mindshare, repurpose world-class harness next-generation eyeballs solutions blogospheres extend. Rss-capable methodologies, &ldquo;vortals vertical,&rdquo; synthesize real-time user-contributed impactful utilize architect deploy ROI redefine design proactive strategic user-centric.</p>
-
-
- <p>Here&rsquo;s a footnote<sup><a href="#2012-01-01-a-2012-blog-post-footnote-1-definition" name="2012-01-01-a-2012-blog-post-footnote-1-return">1</a></sup>.</p>
-
-
- <h2 id="Code blocks">Code blocks</h2>
-
-
- <p>Frog optionally uses <a href="http://pygments.org/">Pygments</a> if it&rsquo;s installed to do syntax highlighting. In your markdown using backtick code blocks you can specify a language:</p>
-
-
- <pre>```language
+<pre><code>```language
 some racket code
-```</pre>
+```</code></pre>
 
+<p>That name is given to Pygments as the lexer to use.</p>
 
- <p>That name is given to Pygments as the lexer to use.</p>
+<p>For example this:</p>
 
-
- <p>For example this:</p>
-
-
- <pre>```js
+<pre><code>```js
 /**
  * Some JavaScript
  */
@@ -148,112 +135,83 @@ function foo()
     if (counter &lt;= 10)
         return;
     // it works!
-```</pre>
+```</code></pre>
 
+<p>Yields this:</p>
 
- <p>Yields this:</p>
-
-
- <div class="brush: js">
-
-  <pre>/**
+<div class="brush: js">
+ <pre><code>/**
  * Some JavaScript
  */
 function foo()
 {
     if (counter &lt;= 10)
         return;
-    // it works!</pre></div>
+    // it works!</code></pre></div>
 
+<p>And this:</p>
 
- <p> And this:</p>
-
-
- <pre>```racket
+<pre><code>```racket
 #lang racket
 ;; Finds Racket sources in all subdirs
 (for ([path (in-directory)])
   (when (regexp-match? #rx"[.]rkt$" path)
     (printf "source file: ~a\n" path)))
 (symbol-&gt;string 'foo)
-```</pre>
+```</code></pre>
 
+<p>Yields this:</p>
 
- <p>Yields this:</p>
-
-
- <div class="brush: racket">
-
-  <pre>#lang racket
+<div class="brush: racket">
+ <pre><code>#lang racket
 ;; Finds Racket sources in all subdirs
 (for ([path (in-directory)])
   (when (regexp-match? #rx"[.]rkt$" path)
     (printf "source file: ~a\n" path)))
-(symbol-&gt;string 'foo)</pre></div>
+(symbol-&gt;string 'foo)</code></pre></div>
 
+<p>Notice that, for Racket, symbols with unambiguous documentation (provided by one library, or provided by several where one is <code>racket</code> or <code>racket/base</code>) are links to that documentation.</p>
 
- <p> Notice that, for Racket, symbols with unambiguous documentation (provided by one library, or provided by several where one is <code>racket</code> or <code>racket/base</code>) are links to that documentation.</p>
+<p>This also works outside fenced code blocks, for symbols in backticks immediately followed by <code>[racket]</code>. Example: <code><a href="http://docs.racket-lang.org/reference/Writing.html#(def._((quote._~23~25kernel)._printf))" style="color: inherit">printf</a></code>. This isn&rsquo;t official Markdown; it&rsquo;s simply a pun on link syntax and fenced code block languages. This is similar to using <code>@racket[printf]</code> in Scribble.</p>
 
+<p><code><a href="http://docs.racket-lang.org/reference/symbols.html#(def._((quote._~23~25kernel)._symbol-~3estring))" style="color: inherit">symbol-&gt;string</a></code>.</p>
 
- <p>This also works outside fenced code blocks, for symbols in backticks immediately followed by <code>[racket]</code>. Example: <code><a href="http://docs.racket-lang.org/reference/Writing.html#(def._((quote._~23~25kernel)._printf))" style="color: inherit">printf</a></code>. This isn&rsquo;t official Markdown; it&rsquo;s simply a pun on link syntax and fenced code block languages. This is similar to using <code>@racket[printf]</code> in Scribble.</p>
+<p>Here is a lambda: λ.</p>
 
+<p>Here is a lambda in code backticks: <code>λ</code>.</p>
 
- <p><code><a href="http://docs.racket-lang.org/reference/symbols.html#(def._((quote._~23~25kernel)._symbol-~3estring))" style="color: inherit">symbol-&gt;string</a></code>.</p>
+<p>And here in indented code block:</p>
 
+<pre><code>(λ () #t)</code></pre>
 
- <p>Here is a lambda: λ.</p>
+<p>And here in fenced code block, no lang specified:</p>
 
+<pre><code>(λ () #t)</code></pre>
 
- <p>Here is a lambda in code backticks: <code>λ</code>.</p>
+<p>And here in fenced code block, lang = <code>racket</code>:</p>
 
+<div class="brush: racket">
+ <pre><code>(λ () #t)</code></pre></div>
 
- <p>And here in indented code block:</p>
+<p>And here in fenced code block, lang = <code>scheme</code>:</p>
 
+<div class="brush: scheme">
+ <pre><code>(λ () #t)</code></pre></div>
 
- <pre>(λ () #t)</pre>
+<p>Here&rsquo;s a simple <code>for</code> macro, written in <a href="http://docs.racket-lang.org/reference/stx-patterns.html">Racket</a>:</p>
 
+<div class="brush: racket">
+ <pre><code>(define-syntax-rule (for (x e1) e2)
+  (for-each (λ (x) e2) e1))</code></pre></div>
 
- <p>And here in fenced code block, no lang specified:</p>
+<p>The end.</p>
 
-
- <pre>(λ () #t)</pre>
-
-
- <p> And here in fenced code block, lang = <code>racket</code>:</p>
-
-
- <div class="brush: racket">
-
-  <pre>(λ () #t)</pre></div>
-
-
- <p> And here in fenced code block, lang = <code>scheme</code>:</p>
-
-
- <div class="brush: scheme">
-
-  <pre>(λ () #t)</pre></div>
-
-
- <p> Here&rsquo;s a simple <code>for</code> macro, written in <a href="http://docs.racket-lang.org/reference/stx-patterns.html">Racket</a>:</p>
-
-
- <div class="brush: racket">
-
-  <pre>(define-syntax-rule (for (x e1) e2)
-  (for-each (λ (x) e2) e1))</pre></div>
-
-
- <p> The end.</p>
-
-
- <div class="footnote-definition" id="2012-01-01-a-2012-blog-post-footnote-1-definition">
-
-  <p>1: Footnote definition. <a href="#2012-01-01-a-2012-blog-post-footnote-1-return">↩</a></p></div>
-
- <footer>
-
-  <script type="text/javascript">
+<div class="footnotes">
+ <ol>
+  <li id="2012-01-01-a-2012-blog-post-footnote-1-definition" class="footnote-definition">
+   <p>Footnote definition.&nbsp;<a href="#2012-01-01-a-2012-blog-post-footnote-1-return">↩</a></p></li></ol></div>
+  <footer>
+    <script type="text/javascript">
       !function(d,s,id){
           var js,fjs=d.getElementsByTagName(s)[0];
           if(!d.getElementById(id)){
@@ -264,14 +222,14 @@ function foo()
           }
       }(document,"script","twitter-wjs");
     </script>
-    <a class="twitter-share-button" data-dnt="true" data-url="http://www.example.com/blog/2012/01/01/a-2012-blog-post/" href="https://twitter.com/share">
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://www.example.com/blog/2012/01/01/a-2012-blog-post/"
+       data-dnt="true">
       "Tweet"</a>
-
-  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
-
-  <g:plusone href="http://www.example.com/blog/2012/01/01/a-2012-blog-post/" size="medium"></g:plusone>
-
-  <script type="text/javascript">
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://www.example.com/blog/2012/01/01/a-2012-blog-post/"></g:plusone>
+    <script type="text/javascript">
       var disqus_shortname = 'shortname';
       (function() {
           var dsq = document.createElement('script');
@@ -281,10 +239,8 @@ function foo()
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     </script>
-
-  <div id="disqus_thread"></div>
-
-  <ul class="pager">
+    <div id="disqus_thread"></div>
+    <ul class="pager">
 
 
     </ul>
