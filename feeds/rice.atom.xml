@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">My Awesome Blog: Posts tagged 'rice'</title>
- <link rel="self" href="http://www.example.com/feeds/rice.atom.xml" />
- <link href="http://www.example.com/tags/rice.html" />
- <id>urn:http-www-example-com:-tags-rice-html</id>
+ <title type="text">Pono's World: Posts tagged 'rice'</title>
+ <link rel="self" href="https://dspt.github.io/feeds/rice.atom.xml" />
+ <link href="https://dspt.github.io/tags/rice.html" />
+ <id>urn:https-dspt-github-io:-tags-rice-html</id>
  <updated>2014-08-01T09:32:04Z</updated>
  <entry>
   <title type="text">Bash Love</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/08/01/bash-love/?utm_source=rice&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2014-08-01-bash-love</id>
+  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/bash-love/?utm_source=rice&amp;utm_medium=Atom" />
+  <id>urn:https-dspt-github-io:-blog-2014-08-01-bash-love</id>
   <published>2014-08-01T09:32:04Z</published>
   <updated>2014-08-01T09:32:04Z</updated>
   <author>
-   <name>The Unknown Author</name></author>
+   <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
 &lt;p&gt;At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.&lt;/p&gt;
 &lt;!-- more--&gt;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Pono's World: Posts tagged 'tutorial'</title>
+  <description>Pono's World: Posts tagged 'tutorial'</description>
+  <link>https://dspt.github.io/tags/tutorial.html</link>
+  <lastBuildDate>Fri, 01 Aug 2014 09:56:08 PDT</lastBuildDate>
+  <pubDate>Fri, 01 Aug 2014 09:56:08 PDT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>git4lit</title>
+   <link>https://dspt.github.io/blog/2014/08/01/git4lit/?utm_source=tutorial&amp;utm_medium=RSS</link>
+   <guid>urn:https-dspt-github-io:-blog-2014-08-01-git4lit</guid>
+   <pubDate>Fri, 01 Aug 2014 09:56:08 PDT</pubDate>
+   <description>&lt;html&gt;
+&lt;p&gt;Today we&amp;rsquo;ll be looking at the version control system (VCS) known as &lt;a href="http://www.git-scm.com/"&gt;git&lt;/a&gt;. git is the industry (at least in Open Source) standard for version control. It happens to be a distributed version control system (DVCS) which differs from the historical style of having a canonical copy of the source tree. Written by Linus Torvalds of Linux fame, git is a tool that all people working in prose or code should be familiar with.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;p&gt;1). Why we need VC.&lt;/p&gt;
+
+&lt;p&gt;2). What you can use git for&lt;/p&gt;
+
+&lt;p&gt;3). Let&amp;rsquo;s make some webpages!&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>

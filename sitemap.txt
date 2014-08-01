@@ -1,3 +1,4 @@
-http://www.example.com/blog/2014/08/01/pgd-cookbook/
-http://www.example.com/blog/2014/08/01/bash-love/
-http://www.example.com/About.html
+https://dspt.github.io/blog/2014/08/01/pgd-cookbook/
+https://dspt.github.io/blog/2014/08/01/git4lit/
+https://dspt.github.io/blog/2014/08/01/bash-love/
+https://dspt.github.io/About.html
