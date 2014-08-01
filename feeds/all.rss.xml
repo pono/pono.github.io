@@ -4,9 +4,19 @@
   <title>Pono's World: Pono's World</title>
   <description>Pono's World: Pono's World</description>
   <link>https://dspt.github.io/index.html</link>
-  <lastBuildDate>Fri, 01 Aug 2014 09:56:08 PDT</lastBuildDate>
-  <pubDate>Fri, 01 Aug 2014 09:56:08 PDT</pubDate>
+  <lastBuildDate>Fri, 01 Aug 2014 13:27:56 PDT</lastBuildDate>
+  <pubDate>Fri, 01 Aug 2014 13:27:56 PDT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>new git page</title>
+   <link>https://dspt.github.io/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:https-dspt-github-io:-blog-2014-08-01-new-git-page</guid>
+   <pubDate>Fri, 01 Aug 2014 13:27:56 PDT</pubDate>
+   <description>&lt;html&gt;
+&lt;p&gt;Hello world this is a demo.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;p&gt;Even more text.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>git4lit</title>
    <link>https://dspt.github.io/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=RSS</link>

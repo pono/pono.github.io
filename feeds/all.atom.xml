@@ -4,7 +4,20 @@
  <link rel="self" href="https://dspt.github.io/feeds/all.atom.xml" />
  <link href="https://dspt.github.io/index.html" />
  <id>urn:https-dspt-github-io:-index-html</id>
- <updated>2014-08-01T09:56:08Z</updated>
+ <updated>2014-08-01T13:27:56Z</updated>
+ <entry>
+  <title type="text">new git page</title>
+  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-dspt-github-io:-blog-2014-08-01-new-git-page</id>
+  <published>2014-08-01T13:27:56Z</published>
+  <updated>2014-08-01T13:27:56Z</updated>
+  <author>
+   <name>Daniel Takamori</name></author>
+  <content type="html">&lt;html&gt;
+&lt;p&gt;Hello world this is a demo.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;p&gt;Even more text.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">git4lit</title>
   <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=Atom" />
