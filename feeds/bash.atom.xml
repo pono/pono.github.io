@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">My Awesome Blog: Posts tagged 'bash'</title>
+ <link rel="self" href="http://www.example.com/feeds/bash.atom.xml" />
+ <link href="http://www.example.com/tags/bash.html" />
+ <id>urn:http-www-example-com:-tags-bash-html</id>
+ <updated>2014-08-01T09:32:04Z</updated>
+ <entry>
+  <title type="text">Bash Love</title>
+  <link rel="alternate" href="http://www.example.com/blog/2014/08/01/bash-love/?utm_source=bash&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-blog-2014-08-01-bash-love</id>
+  <published>2014-08-01T09:32:04Z</published>
+  <updated>2014-08-01T09:32:04Z</updated>
+  <author>
+   <name>The Unknown Author</name></author>
+  <content type="html">&lt;html&gt;
+&lt;p&gt;At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;p&gt;Behold! (Figure 3, 4)&lt;/p&gt;
+
+&lt;p&gt;Using a case statement and filtering out the color from the hostname, I color code my prompt based on hostname. This very easily lets me know $HOSTNAME, and indirectly /usr/bin/whoami since almost every other user will preface their prompt with a $USER.&lt;/p&gt;
+
+&lt;p&gt;This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt. The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs and some terminal emulators, so there should be a check to make sure it can be loaded and replacing with something else if it fails. A quick hack to make life prettier!&lt;/p&gt;
+
+&lt;div class="figure"&gt;&lt;img src="https://staff.osuosl.org/~pono/bashblog3.png" alt="picture" /&gt;
+ &lt;p class="caption"&gt;picture&lt;/p&gt;&lt;/div&gt;&lt;/html&gt;</content></entry></feed>

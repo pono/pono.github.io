@@ -3,14 +3,14 @@
   <head>
 
     <meta charset="utf-8">
-    <title>About page</title>
-    <meta name="description" content="About page: Your about page, here....">
+    <title>Bash Love</title>
+    <meta name="description" content="At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to...">
     <meta name="author"      content="The Unknown Blogger">
-    <meta name="keywords"    content="">
+    <meta name="keywords"    content="bash, osl, work, rice">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://www.example.com/About.html">
-
+    <link rel="canonical" href="http://www.example.com/blog/2014/08/01/bash-love/">
+    <link rel="next" href="/blog/2014/08/01/pgd-cookbook/">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
@@ -77,7 +77,7 @@
 <li><a href="/tags/work.html">work</a></li>
               </ul>
             </li>
-            <li class="active">
+            <li>
               <a href="/About.html">About</a>
             </li> 
             <li><a href="/feeds/all.atom.xml">Atom</a></li>
@@ -96,10 +96,33 @@
 
 
 
+          <article>
+  <header>
+    <h1>Bash Love</h1>
+    <p class='date-and-tags'>
+<time datetime="2014-08-01" pubdate="true">2014-08-01</time> :: <span class="tags"><a href="/tags/bash.html">bash</a>, <a href="/tags/osl.html">osl</a>, <a href="/tags/work.html">work</a>, <a href="/tags/rice.html">rice</a></span></p>
+  </header>
 
-<h1 id="about-page">About page</h1>
+<p>At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.</p>
+<!-- more-->
 
-<p>Your about page, here.</p>
+<p>Behold! (Figure 3, 4)</p>
+
+<p>Using a case statement and filtering out the color from the hostname, I color code my prompt based on hostname. This very easily lets me know $HOSTNAME, and indirectly /usr/bin/whoami since almost every other user will preface their prompt with a $USER.</p>
+
+<p>This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt. The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs and some terminal emulators, so there should be a check to make sure it can be loaded and replacing with something else if it fails. A quick hack to make life prettier!</p>
+
+<div class="figure"><img src="https://staff.osuosl.org/~pono/bashblog3.png" alt="picture" />
+ <p class="caption">picture</p></div>
+  <footer>
+    <ul class="pager">
+
+    <li class="next">
+      <a href="/blog/2014/08/01/pgd-cookbook/"><em>PGD Cookbook</em> &rarr;</a>
+    </li>
+    </ul>
+  </footer>
+</article>
         </div>
       </div>
       <footer>

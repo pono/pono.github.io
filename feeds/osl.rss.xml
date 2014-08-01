@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>My Awesome Blog: Posts tagged 'osl'</title>
+  <description>My Awesome Blog: Posts tagged 'osl'</description>
+  <link>http://www.example.com/tags/osl.html</link>
+  <lastBuildDate>Fri, 01 Aug 2014 09:32:04 PDT</lastBuildDate>
+  <pubDate>Fri, 01 Aug 2014 09:32:04 PDT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Bash Love</title>
+   <link>http://www.example.com/blog/2014/08/01/bash-love/?utm_source=osl&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2014-08-01-bash-love</guid>
+   <pubDate>Fri, 01 Aug 2014 09:32:04 PDT</pubDate>
+   <description>&lt;html&gt;
+&lt;p&gt;At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;p&gt;Behold! (Figure 3, 4)&lt;/p&gt;
+
+&lt;p&gt;Using a case statement and filtering out the color from the hostname, I color code my prompt based on hostname. This very easily lets me know $HOSTNAME, and indirectly /usr/bin/whoami since almost every other user will preface their prompt with a $USER.&lt;/p&gt;
+
+&lt;p&gt;This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt. The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs and some terminal emulators, so there should be a check to make sure it can be loaded and replacing with something else if it fails. A quick hack to make life prettier!&lt;/p&gt;
+
+&lt;div class="figure"&gt;&lt;img src="https://staff.osuosl.org/~pono/bashblog3.png" alt="picture" /&gt;
+ &lt;p class="caption"&gt;picture&lt;/p&gt;&lt;/div&gt;&lt;/html&gt;</description></item>
+  <item>
+   <title>PGD Cookbook</title>
+   <link>http://www.example.com/blog/2014/08/01/pgd-cookbook/?utm_source=osl&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2014-08-01-pgd-cookbook</guid>
+   <pubDate>Fri, 01 Aug 2014 09:28:13 PDT</pubDate>
+   <description>&lt;html&gt;
+&lt;p&gt;When I mention, yum cookbook, recipes, and how to use knife, what comes to mind? When first using &lt;a href="http://getchef.com"&gt;Chef&lt;/a&gt; you begin to wonder what they were thinking naming their product such a common thing. Chef is a &lt;a href="https://en.wikipedia.org/wiki/Software_configuration_management"&gt;configuration management&lt;/a&gt;(CI) tool. CI is a methodology for programmatically managing software and hardware. There are many popular open source options including &lt;a href="https://puppetlabs.com/"&gt;Puppet&lt;/a&gt;, &lt;a href="http://www.ansible.com/home"&gt;Ansible&lt;/a&gt;, &lt;a href="http://www.saltstack.com/"&gt;SaltStack&lt;/a&gt;,  and &lt;a href="http://nixos.org/"&gt;NixOS&lt;/a&gt; to name a few. They differ in their language of implementation, design goals, and range of popularity.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;p&gt;As an overview lets say you have a database server and web app. You are looking to deploy a development instance of your web app but create it in such a way that anyone can spin up a new instance and test against your various git branches of the code base. One way to do this is with &lt;a href="http://vagrantup.com"&gt;Vagrant&lt;/a&gt;. You could then write a bash script to provision the machine and just run the  commands verbatim from the script. This is nice if you know exactly what you want to do and an expert in bash.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>

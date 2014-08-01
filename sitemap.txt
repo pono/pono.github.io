@@ -1,1 +1,3 @@
+http://www.example.com/blog/2014/08/01/pgd-cookbook/
+http://www.example.com/blog/2014/08/01/bash-love/
 http://www.example.com/About.html
