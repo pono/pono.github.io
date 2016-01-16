@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Pono's World: Pono's World</title>
-  <description>Pono's World: Pono's World</description>
-  <link>https://dspt.github.io/index.html</link>
+  <title>Pono's World: Posts tagged 'food'</title>
+  <description>Pono's World: Posts tagged 'food'</description>
+  <link>https://dspt.github.io/tags/food.html</link>
   <lastBuildDate>Sat, 16 Jan 2016 08:00:00 UT</lastBuildDate>
   <pubDate>Sat, 16 Jan 2016 08:00:00 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Chicago: A Trip Report</title>
-   <link>https://dspt.github.io/blog/2016/01/16/chicago-a-trip-report/?utm_source=all&amp;utm_medium=RSS</link>
+   <link>https://dspt.github.io/blog/2016/01/16/chicago-a-trip-report/?utm_source=food&amp;utm_medium=RSS</link>
    <guid>urn:https-dspt-github-io:-blog-2016-01-16-chicago-a-trip-report</guid>
    <pubDate>Sat, 16 Jan 2016 08:00:00 UT</pubDate>
    <description>&lt;html&gt;
@@ -195,55 +195,4 @@ function foo()
 &lt;div class="footnotes"&gt;
  &lt;ol&gt;
   &lt;li id="2016-01-16-chicago-a-trip-report-footnote-1-definition" class="footnote-definition"&gt;
-   &lt;p&gt;Footnote definition.&amp;nbsp;&lt;a href="#2016-01-16-chicago-a-trip-report-footnote-1-return"&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/html&gt;</description></item>
-  <item>
-   <title>new git page</title>
-   <link>https://dspt.github.io/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-new-git-page</guid>
-   <pubDate>Fri, 01 Aug 2014 20:27:56 UT</pubDate>
-   <description>&lt;html&gt;
-&lt;p&gt;Hello world this is a demo.&lt;/p&gt;
-&lt;!-- more--&gt;
-
-&lt;p&gt;Even more text.&lt;/p&gt;&lt;/html&gt;</description></item>
-  <item>
-   <title>git4lit</title>
-   <link>https://dspt.github.io/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-git4lit</guid>
-   <pubDate>Fri, 01 Aug 2014 16:56:08 UT</pubDate>
-   <description>&lt;html&gt;
-&lt;p&gt;Today we&amp;rsquo;ll be looking at the version control system (VCS) known as &lt;a href="http://www.git-scm.com/"&gt;git&lt;/a&gt;. git is the industry (at least in Open Source) standard for version control. It happens to be a distributed version control system (DVCS) which differs from the historical style of having a canonical copy of the source tree. Written by Linus Torvalds of Linux fame, git is a tool that all people working in prose or code should be familiar with.&lt;/p&gt;
-&lt;!-- more--&gt;
-
-&lt;p&gt;1). Why we need VC.&lt;/p&gt;
-
-&lt;p&gt;2). What you can use git for&lt;/p&gt;
-
-&lt;p&gt;3). Let&amp;rsquo;s make some webpages!&lt;/p&gt;&lt;/html&gt;</description></item>
-  <item>
-   <title>Bash Love</title>
-   <link>https://dspt.github.io/blog/2014/08/01/bash-love/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-bash-love</guid>
-   <pubDate>Fri, 01 Aug 2014 16:32:04 UT</pubDate>
-   <description>&lt;html&gt;
-&lt;p&gt;At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.&lt;/p&gt;
-&lt;!-- more--&gt;
-
-&lt;p&gt;Behold! (Figure 3, 4)&lt;/p&gt;
-
-&lt;p&gt;Using a case statement and filtering out the color from the hostname, I color code my prompt based on hostname. This very easily lets me know $HOSTNAME, and indirectly /usr/bin/whoami since almost every other user will preface their prompt with a $USER.&lt;/p&gt;
-
-&lt;p&gt;This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt. The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs and some terminal emulators, so there should be a check to make sure it can be loaded and replacing with something else if it fails. A quick hack to make life prettier!&lt;/p&gt;
-
-&lt;div class="figure"&gt;&lt;img src="https://staff.osuosl.org/~pono/bashblog3.png" alt="picture" /&gt;
- &lt;p class="caption"&gt;picture&lt;/p&gt;&lt;/div&gt;&lt;/html&gt;</description></item>
-  <item>
-   <title>PGD Cookbook</title>
-   <link>https://dspt.github.io/blog/2014/08/01/pgd-cookbook/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-pgd-cookbook</guid>
-   <pubDate>Fri, 01 Aug 2014 16:28:13 UT</pubDate>
-   <description>&lt;html&gt;
-&lt;p&gt;When I mention, yum cookbook, recipes, and how to use knife, what comes to mind? When first using &lt;a href="http://getchef.com"&gt;Chef&lt;/a&gt; you begin to wonder what they were thinking naming their product such a common thing. Chef is a &lt;a href="https://en.wikipedia.org/wiki/Software_configuration_management"&gt;configuration management&lt;/a&gt;(CI) tool. CI is a methodology for programmatically managing software and hardware. There are many popular open source options including &lt;a href="https://puppetlabs.com/"&gt;Puppet&lt;/a&gt;, &lt;a href="http://www.ansible.com/home"&gt;Ansible&lt;/a&gt;, &lt;a href="http://www.saltstack.com/"&gt;SaltStack&lt;/a&gt;,  and &lt;a href="http://nixos.org/"&gt;NixOS&lt;/a&gt; to name a few. They differ in their language of implementation, design goals, and range of popularity.&lt;/p&gt;
-&lt;!-- more--&gt;
-
-&lt;p&gt;As an overview lets say you have a database server and web app. You are looking to deploy a development instance of your web app but create it in such a way that anyone can spin up a new instance and test against your various git branches of the code base. One way to do this is with &lt;a href="http://vagrantup.com"&gt;Vagrant&lt;/a&gt;. You could then write a bash script to provision the machine and just run the  commands verbatim from the script. This is nice if you know exactly what you want to do and an expert in bash.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+   &lt;p&gt;Footnote definition.&amp;nbsp;&lt;a href="#2016-01-16-chicago-a-trip-report-footnote-1-return"&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/html&gt;</description></item></channel></rss>
