@@ -36,7 +36,7 @@ Musically:
         Bar.  Much more of a night club than a venue, the scene was different
         than Lincoln Hall.  These two guys put on a hell of a set and they even
         switched back and forth between song seemlessly while playing their own
-        styles.  A+ Check them out http://abstractscience.net/
+        styles.  A+ [Check them out](http://abstractscience.net/)
       - Shigedo:  This guy didn't really impress me when I've listened to his
         records, but his set was tight and really rappy.  Definitely gonna give
         his other stuff a listen.
