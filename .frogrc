@@ -1,8 +1,11 @@
 # Required: Should NOT end in trailing slash.
-scheme/host = https://dspt.github.io
+scheme/host = https://tarobot.org/blog
 
 title = Pono's World
 author = Daniel Takamori
+
+uri-prefix = /blog
+
 
 # What editor to launch with --edit. $EDITOR means to use $EDITOR from
 # the environment

@@ -1,6 +1,6 @@
-https://dspt.github.io/blog/2014/08/01/new-git-page/
-https://dspt.github.io/blog/2014/08/01/git4lit/
-https://dspt.github.io/blog/2014/08/01/pgd-cookbook/
-https://dspt.github.io/blog/2016/01/16/chicago-a-trip-report/
-https://dspt.github.io/blog/2014/08/01/bash-love/
-https://dspt.github.io/About.html
+https://tarobot.org/blog/blog/2014/08/01/git4lit/
+https://tarobot.org/blog/blog/2014/08/01/bash-love/
+https://tarobot.org/blog/blog/2016/01/16/chicago-a-trip-report/
+https://tarobot.org/blog/blog/2014/08/01/new-git-page/
+https://tarobot.org/blog/blog/2014/08/01/pgd-cookbook/
+https://tarobot.org/blog/blog/About.html

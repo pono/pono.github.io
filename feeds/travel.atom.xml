@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Pono's World: Posts tagged 'travel'</title>
- <link rel="self" href="https://dspt.github.io/feeds/travel.atom.xml" />
- <link href="https://dspt.github.io/tags/travel.html" />
- <id>urn:https-dspt-github-io:-tags-travel-html</id>
- <updated>2016-01-16T08:00:00Z</updated>
+ <link rel="self" href="https://tarobot.org/blog/feeds/travel.atom.xml" />
+ <link href="https://tarobot.org/blog/tags/travel.html" />
+ <id>urn:https-tarobot-org-blog:-tags-travel-html</id>
+ <updated>2016-01-16T05:00:00Z</updated>
  <entry>
   <title type="text">Chicago: A Trip Report</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2016/01/16/chicago-a-trip-report/?utm_source=travel&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2016-01-16-chicago-a-trip-report</id>
-  <published>2016-01-16T08:00:00Z</published>
-  <updated>2016-01-16T08:00:00Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2016/01/16/chicago-a-trip-report/?utm_source=travel&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2016-01-16-chicago-a-trip-report</id>
+  <published>2016-01-16T05:00:00Z</published>
+  <updated>2016-01-16T05:00:00Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;

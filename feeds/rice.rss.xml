@@ -3,15 +3,15 @@
  <channel>
   <title>Pono's World: Posts tagged 'rice'</title>
   <description>Pono's World: Posts tagged 'rice'</description>
-  <link>https://dspt.github.io/tags/rice.html</link>
-  <lastBuildDate>Fri, 01 Aug 2014 16:32:04 UT</lastBuildDate>
-  <pubDate>Fri, 01 Aug 2014 16:32:04 UT</pubDate>
+  <link>https://tarobot.org/blog/tags/rice.html</link>
+  <lastBuildDate>Fri, 01 Aug 2014 13:32:04 UT</lastBuildDate>
+  <pubDate>Fri, 01 Aug 2014 13:32:04 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Bash Love</title>
-   <link>https://dspt.github.io/blog/2014/08/01/bash-love/?utm_source=rice&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-bash-love</guid>
-   <pubDate>Fri, 01 Aug 2014 16:32:04 UT</pubDate>
+   <link>https://tarobot.org/blog/blog/2014/08/01/bash-love/?utm_source=rice&amp;utm_medium=RSS</link>
+   <guid>urn:https-tarobot-org-blog:-blog-2014-08-01-bash-love</guid>
+   <pubDate>Fri, 01 Aug 2014 13:32:04 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.&lt;/p&gt;
 &lt;!-- more--&gt;

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Pono's World: Posts tagged 'git'</title>
- <link rel="self" href="https://dspt.github.io/feeds/git.atom.xml" />
- <link href="https://dspt.github.io/tags/git.html" />
- <id>urn:https-dspt-github-io:-tags-git-html</id>
- <updated>2014-08-01T16:56:08Z</updated>
+ <link rel="self" href="https://tarobot.org/blog/feeds/git.atom.xml" />
+ <link href="https://tarobot.org/blog/tags/git.html" />
+ <id>urn:https-tarobot-org-blog:-tags-git-html</id>
+ <updated>2014-08-01T13:56:08Z</updated>
  <entry>
   <title type="text">git4lit</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/git4lit/?utm_source=git&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2014-08-01-git4lit</id>
-  <published>2014-08-01T16:56:08Z</published>
-  <updated>2014-08-01T16:56:08Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/git4lit/?utm_source=git&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-git4lit</id>
+  <published>2014-08-01T13:56:08Z</published>
+  <updated>2014-08-01T13:56:08Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;

@@ -3,15 +3,15 @@
  <channel>
   <title>Pono's World: Pono's World</title>
   <description>Pono's World: Pono's World</description>
-  <link>https://dspt.github.io/index.html</link>
-  <lastBuildDate>Sat, 16 Jan 2016 08:00:00 UT</lastBuildDate>
-  <pubDate>Sat, 16 Jan 2016 08:00:00 UT</pubDate>
+  <link>https://tarobot.org/blog/index.html</link>
+  <lastBuildDate>Sat, 16 Jan 2016 05:00:00 UT</lastBuildDate>
+  <pubDate>Sat, 16 Jan 2016 05:00:00 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Chicago: A Trip Report</title>
-   <link>https://dspt.github.io/blog/2016/01/16/chicago-a-trip-report/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2016-01-16-chicago-a-trip-report</guid>
-   <pubDate>Sat, 16 Jan 2016 08:00:00 UT</pubDate>
+   <link>https://tarobot.org/blog/blog/2016/01/16/chicago-a-trip-report/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:https-tarobot-org-blog:-blog-2016-01-16-chicago-a-trip-report</guid>
+   <pubDate>Sat, 16 Jan 2016 05:00:00 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;I recently came to Chicago for &lt;a href="http://tnkfest.com/"&gt;Tomorrow Never Knows&lt;/a&gt;. The acts I came to see where Lady Lamb, The Go Team!, and Julien Baker, in descending order of psychedness. While I came for the music  (and secretly to eat huitlacoche), there was a lot more going on that what I&amp;rsquo;d anticipated so here&amp;rsquo;s my trip report! Check out my Instagram for pictures from the Museum of Science and Industry and other odds and ends.&lt;/p&gt;
 &lt;!-- more--&gt;
@@ -82,9 +82,9 @@
 &lt;p&gt;Overall it was a great trip, and beside it being &amp;ndash;7^o C and having to buy some vegan boots as soon as I got off the train, it was nice. Chicago you are a great city and I can&amp;rsquo;t wait to visit again.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>new git page</title>
-   <link>https://dspt.github.io/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-new-git-page</guid>
-   <pubDate>Fri, 01 Aug 2014 20:27:56 UT</pubDate>
+   <link>https://tarobot.org/blog/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:https-tarobot-org-blog:-blog-2014-08-01-new-git-page</guid>
+   <pubDate>Fri, 01 Aug 2014 17:27:56 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Hello world this is a demo.&lt;/p&gt;
 &lt;!-- more--&gt;
@@ -92,9 +92,9 @@
 &lt;p&gt;Even more text.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>git4lit</title>
-   <link>https://dspt.github.io/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-git4lit</guid>
-   <pubDate>Fri, 01 Aug 2014 16:56:08 UT</pubDate>
+   <link>https://tarobot.org/blog/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:https-tarobot-org-blog:-blog-2014-08-01-git4lit</guid>
+   <pubDate>Fri, 01 Aug 2014 13:56:08 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Today we&amp;rsquo;ll be looking at the version control system (VCS) known as &lt;a href="http://www.git-scm.com/"&gt;git&lt;/a&gt;. git is the industry (at least in Open Source) standard for version control. It happens to be a distributed version control system (DVCS) which differs from the historical style of having a canonical copy of the source tree. Written by Linus Torvalds of Linux fame, git is a tool that all people working in prose or code should be familiar with.&lt;/p&gt;
 &lt;!-- more--&gt;
@@ -106,9 +106,9 @@
 &lt;p&gt;3). Let&amp;rsquo;s make some webpages!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Bash Love</title>
-   <link>https://dspt.github.io/blog/2014/08/01/bash-love/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-bash-love</guid>
-   <pubDate>Fri, 01 Aug 2014 16:32:04 UT</pubDate>
+   <link>https://tarobot.org/blog/blog/2014/08/01/bash-love/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:https-tarobot-org-blog:-blog-2014-08-01-bash-love</guid>
+   <pubDate>Fri, 01 Aug 2014 13:32:04 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;At the OSL our workstations are shared and named after colors. emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1). I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.&lt;/p&gt;
 &lt;!-- more--&gt;
@@ -123,9 +123,9 @@
  &lt;p class="caption"&gt;picture&lt;/p&gt;&lt;/div&gt;&lt;/html&gt;</description></item>
   <item>
    <title>PGD Cookbook</title>
-   <link>https://dspt.github.io/blog/2014/08/01/pgd-cookbook/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:https-dspt-github-io:-blog-2014-08-01-pgd-cookbook</guid>
-   <pubDate>Fri, 01 Aug 2014 16:28:13 UT</pubDate>
+   <link>https://tarobot.org/blog/blog/2014/08/01/pgd-cookbook/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:https-tarobot-org-blog:-blog-2014-08-01-pgd-cookbook</guid>
+   <pubDate>Fri, 01 Aug 2014 13:28:13 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When I mention, yum cookbook, recipes, and how to use knife, what comes to mind? When first using &lt;a href="http://getchef.com"&gt;Chef&lt;/a&gt; you begin to wonder what they were thinking naming their product such a common thing. Chef is a &lt;a href="https://en.wikipedia.org/wiki/Software_configuration_management"&gt;configuration management&lt;/a&gt;(CI) tool. CI is a methodology for programmatically managing software and hardware. There are many popular open source options including &lt;a href="https://puppetlabs.com/"&gt;Puppet&lt;/a&gt;, &lt;a href="http://www.ansible.com/home"&gt;Ansible&lt;/a&gt;, &lt;a href="http://www.saltstack.com/"&gt;SaltStack&lt;/a&gt;,  and &lt;a href="http://nixos.org/"&gt;NixOS&lt;/a&gt; to name a few. They differ in their language of implementation, design goals, and range of popularity.&lt;/p&gt;
 &lt;!-- more--&gt;

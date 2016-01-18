@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Pono's World: Pono's World</title>
- <link rel="self" href="https://dspt.github.io/feeds/all.atom.xml" />
- <link href="https://dspt.github.io/index.html" />
- <id>urn:https-dspt-github-io:-index-html</id>
- <updated>2016-01-16T08:00:00Z</updated>
+ <link rel="self" href="https://tarobot.org/blog/feeds/all.atom.xml" />
+ <link href="https://tarobot.org/blog/index.html" />
+ <id>urn:https-tarobot-org-blog:-index-html</id>
+ <updated>2016-01-16T05:00:00Z</updated>
  <entry>
   <title type="text">Chicago: A Trip Report</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2016/01/16/chicago-a-trip-report/?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2016-01-16-chicago-a-trip-report</id>
-  <published>2016-01-16T08:00:00Z</published>
-  <updated>2016-01-16T08:00:00Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2016/01/16/chicago-a-trip-report/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2016-01-16-chicago-a-trip-report</id>
+  <published>2016-01-16T05:00:00Z</published>
+  <updated>2016-01-16T05:00:00Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -83,10 +83,10 @@
 &lt;p&gt;Overall it was a great trip, and beside it being &amp;ndash;7^o C and having to buy some vegan boots as soon as I got off the train, it was nice. Chicago you are a great city and I can&amp;rsquo;t wait to visit again.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">new git page</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2014-08-01-new-git-page</id>
-  <published>2014-08-01T20:27:56Z</published>
-  <updated>2014-08-01T20:27:56Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-new-git-page</id>
+  <published>2014-08-01T17:27:56Z</published>
+  <updated>2014-08-01T17:27:56Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -96,10 +96,10 @@
 &lt;p&gt;Even more text.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">git4lit</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2014-08-01-git4lit</id>
-  <published>2014-08-01T16:56:08Z</published>
-  <updated>2014-08-01T16:56:08Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-git4lit</id>
+  <published>2014-08-01T13:56:08Z</published>
+  <updated>2014-08-01T13:56:08Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -113,10 +113,10 @@
 &lt;p&gt;3). Let&amp;rsquo;s make some webpages!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Bash Love</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/bash-love/?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2014-08-01-bash-love</id>
-  <published>2014-08-01T16:32:04Z</published>
-  <updated>2014-08-01T16:32:04Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/bash-love/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-bash-love</id>
+  <published>2014-08-01T13:32:04Z</published>
+  <updated>2014-08-01T13:32:04Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -133,10 +133,10 @@
  &lt;p class="caption"&gt;picture&lt;/p&gt;&lt;/div&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">PGD Cookbook</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/pgd-cookbook/?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2014-08-01-pgd-cookbook</id>
-  <published>2014-08-01T16:28:13Z</published>
-  <updated>2014-08-01T16:28:13Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/pgd-cookbook/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-pgd-cookbook</id>
+  <published>2014-08-01T13:28:13Z</published>
+  <updated>2014-08-01T13:28:13Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;

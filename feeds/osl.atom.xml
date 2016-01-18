@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Pono's World: Posts tagged 'osl'</title>
- <link rel="self" href="https://dspt.github.io/feeds/osl.atom.xml" />
- <link href="https://dspt.github.io/tags/osl.html" />
- <id>urn:https-dspt-github-io:-tags-osl-html</id>
- <updated>2014-08-01T16:32:04Z</updated>
+ <link rel="self" href="https://tarobot.org/blog/feeds/osl.atom.xml" />
+ <link href="https://tarobot.org/blog/tags/osl.html" />
+ <id>urn:https-tarobot-org-blog:-tags-osl-html</id>
+ <updated>2014-08-01T13:32:04Z</updated>
  <entry>
   <title type="text">Bash Love</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/bash-love/?utm_source=osl&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2014-08-01-bash-love</id>
-  <published>2014-08-01T16:32:04Z</published>
-  <updated>2014-08-01T16:32:04Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/bash-love/?utm_source=osl&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-bash-love</id>
+  <published>2014-08-01T13:32:04Z</published>
+  <updated>2014-08-01T13:32:04Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -27,10 +27,10 @@
  &lt;p class="caption"&gt;picture&lt;/p&gt;&lt;/div&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">PGD Cookbook</title>
-  <link rel="alternate" href="https://dspt.github.io/blog/2014/08/01/pgd-cookbook/?utm_source=osl&amp;utm_medium=Atom" />
-  <id>urn:https-dspt-github-io:-blog-2014-08-01-pgd-cookbook</id>
-  <published>2014-08-01T16:28:13Z</published>
-  <updated>2014-08-01T16:28:13Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/pgd-cookbook/?utm_source=osl&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-pgd-cookbook</id>
+  <published>2014-08-01T13:28:13Z</published>
+  <updated>2014-08-01T13:28:13Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
