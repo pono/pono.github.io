@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Pono's World: Posts tagged 'code'</title>
- <link rel="self" href="https://tarobot.org/blog/feeds/code.atom.xml" />
- <link href="https://tarobot.org/blog/tags/code.html" />
- <id>urn:https-tarobot-org-blog:-tags-code-html</id>
- <updated>2014-08-01T13:28:13Z</updated>
+ <link rel="self" href="https://tarobot.org/blog/blog/feeds/code.atom.xml" />
+ <link href="https://tarobot.org/blog/blog/tags/code.html" />
+ <id>urn:https-tarobot-org-blog:-blog-tags-code-html</id>
+ <updated>2014-08-01T16:28:13Z</updated>
  <entry>
   <title type="text">PGD Cookbook</title>
-  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/pgd-cookbook/?utm_source=code&amp;utm_medium=Atom" />
-  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-pgd-cookbook</id>
-  <published>2014-08-01T13:28:13Z</published>
-  <updated>2014-08-01T13:28:13Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2014/08/01/pgd-cookbook/?utm_source=code&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-blog-2014-08-01-pgd-cookbook</id>
+  <published>2014-08-01T16:28:13Z</published>
+  <updated>2014-08-01T16:28:13Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;

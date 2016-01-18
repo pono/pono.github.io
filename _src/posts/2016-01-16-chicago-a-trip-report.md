@@ -138,7 +138,7 @@ Food:
     - Nada Tea House.  Fantastic hole in the wall tea place.  Run by a super
       nice Japanese lady who will talk tea if you want.  I ordered the bowl of
       the green tea made in traditional ceremony. 
-      [Picture](https://instagram.com/emptytriangle)
+      [Picture](https://www.instagram.com/p/BAiEDkiDRF-/)
       I ended up working here for a couple hours and got another tea because it
       was very good.  This is my recommendation for when you go to Chicago.
     - Chicago Diner.  Working in the tea house for 3 hours made my experience
@@ -191,6 +191,14 @@ Food:
       to the Museum of Science and Industry.  Coffee was great, croissant see *
     - Frontera.  I just wanted their chips again.  There are still a couple
       sitting in my bag.
+
+  - Notes
+    - Subway.  Chicago seems to obsessed with Subway.  Every other block has
+      one!
+    - Smoothies and Juice Bars.  Not only were there a ton of smooties places,
+      it seemed most places had smoothies or fancy juices on their menus.  Now
+      I'm generally not a fan of either of these things, but it more so confused
+      me about how popular they are.
  
 
 Transit: Ventra is a great idea but their NFC is awful.  I routinely have to 
@@ -237,7 +245,7 @@ around U Chicago are the same people that are living in this poorer part of
 town.  It's not bad, but it's interesting to see how even something like
 academically can accidentally bring in these socio-economic problems.
 
-Overall it was a great trip, and beside it being -7^o C and having to buy some
+Overall it was a great trip, and beside it being -7° C and having to buy some
 vegan boots as soon as I got off the train, it was nice.  Chicago you are a
 great city and I can't wait to visit again.
 

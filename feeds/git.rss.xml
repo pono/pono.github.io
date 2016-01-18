@@ -3,15 +3,15 @@
  <channel>
   <title>Pono's World: Posts tagged 'git'</title>
   <description>Pono's World: Posts tagged 'git'</description>
-  <link>https://tarobot.org/blog/tags/git.html</link>
-  <lastBuildDate>Fri, 01 Aug 2014 13:56:08 UT</lastBuildDate>
-  <pubDate>Fri, 01 Aug 2014 13:56:08 UT</pubDate>
+  <link>https://tarobot.org/blog/blog/tags/git.html</link>
+  <lastBuildDate>Fri, 01 Aug 2014 16:56:08 UT</lastBuildDate>
+  <pubDate>Fri, 01 Aug 2014 16:56:08 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>git4lit</title>
-   <link>https://tarobot.org/blog/blog/2014/08/01/git4lit/?utm_source=git&amp;utm_medium=RSS</link>
-   <guid>urn:https-tarobot-org-blog:-blog-2014-08-01-git4lit</guid>
-   <pubDate>Fri, 01 Aug 2014 13:56:08 UT</pubDate>
+   <link>https://tarobot.org/blog/blog/blog/2014/08/01/git4lit/?utm_source=git&amp;utm_medium=RSS</link>
+   <guid>urn:https-tarobot-org-blog:-blog-blog-2014-08-01-git4lit</guid>
+   <pubDate>Fri, 01 Aug 2014 16:56:08 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Today we&amp;rsquo;ll be looking at the version control system (VCS) known as &lt;a href="http://www.git-scm.com/"&gt;git&lt;/a&gt;. git is the industry (at least in Open Source) standard for version control. It happens to be a distributed version control system (DVCS) which differs from the historical style of having a canonical copy of the source tree. Written by Linus Torvalds of Linux fame, git is a tool that all people working in prose or code should be familiar with.&lt;/p&gt;
 &lt;!-- more--&gt;

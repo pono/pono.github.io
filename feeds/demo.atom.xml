@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Pono's World: Posts tagged 'demo'</title>
- <link rel="self" href="https://tarobot.org/blog/feeds/demo.atom.xml" />
- <link href="https://tarobot.org/blog/tags/demo.html" />
- <id>urn:https-tarobot-org-blog:-tags-demo-html</id>
- <updated>2014-08-01T17:27:56Z</updated>
+ <link rel="self" href="https://tarobot.org/blog/blog/feeds/demo.atom.xml" />
+ <link href="https://tarobot.org/blog/blog/tags/demo.html" />
+ <id>urn:https-tarobot-org-blog:-blog-tags-demo-html</id>
+ <updated>2014-08-01T20:27:56Z</updated>
  <entry>
   <title type="text">new git page</title>
-  <link rel="alternate" href="https://tarobot.org/blog/blog/2014/08/01/new-git-page/?utm_source=demo&amp;utm_medium=Atom" />
-  <id>urn:https-tarobot-org-blog:-blog-2014-08-01-new-git-page</id>
-  <published>2014-08-01T17:27:56Z</published>
-  <updated>2014-08-01T17:27:56Z</updated>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2014/08/01/new-git-page/?utm_source=demo&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-blog-2014-08-01-new-git-page</id>
+  <published>2014-08-01T20:27:56Z</published>
+  <updated>2014-08-01T20:27:56Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
