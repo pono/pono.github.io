@@ -4,13 +4,41 @@
  <link rel="self" href="https://tarobot.org/blog/blog/feeds/all.atom.xml" />
  <link href="https://tarobot.org/blog/blog/index.html" />
  <id>urn:https-tarobot-org-blog:-blog-index-html</id>
- <updated>2016-01-16T08:00:00Z</updated>
+ <updated>2016-03-29T00:00:00Z</updated>
+ <entry>
+  <title type="text">How to merge poorly written PDFs</title>
+  <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2016/03/29/how-to-merge-poorly-written-pdfs/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-tarobot-org-blog:-blog-blog-2016-03-29-how-to-merge-poorly-written-pdfs</id>
+  <published>2016-03-29T00:00:00Z</published>
+  <updated>2016-03-29T00:00:00Z</updated>
+  <author>
+   <name>Daniel Takamori</name></author>
+  <content type="html">&lt;html&gt;
+&lt;p&gt;As an employee of the &lt;a href="https://apache.org"&gt;Apache Software Foundation&lt;/a&gt; I was not required to sign anything to commit code. But as a community member I thought it would be a good idea to go ahead and sign the &lt;a href="https://www.apache.org/dev/new-committers-guide.html"&gt;ICLA&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;p&gt;The process goes something like this:&lt;/p&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;Download &lt;a href="https://www.apache.org/licenses/icla.pdf"&gt;PDF&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;Edit and sign&lt;/li&gt;
+ &lt;li&gt;Send the PDF to secretary [at] apache (dot) org&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;Downloading the PDF, check. I&amp;rsquo;m a trained sysadmin so naturally I spun up a VM, installed docker, wrote a Dockerfile to download a file, virus check it against clamav, multiple online sites and then hash the file and put it in a shared volume which is NFS mounted to my laptop. Or something.&lt;/p&gt;
+
+&lt;p&gt;Turns out that editing PDFs on linux is pretty much a pain in the ass but the go to seems to be GIMP. Whether I&amp;rsquo;m bad at GIMP (this is true) or GIMP&amp;rsquo;s UI is pretty convoluted (this is also true) I could not figure out how to edit a multipage PDF. However, when you load the PDF it asks which pages you want to import. So importing each page one at a time solved this first problem. Adding text was a simple matter of matching the font size and clicking too high on the text entry fields. Signing was also easy to make my signature look like it did when I was 5.&lt;/p&gt;
+
+&lt;p&gt;Exporting each page as a PDF leaves me with 2 PDFs which I&amp;rsquo;ll need to join. A cursory search found me this page from &lt;a href="https://www.linux.com/news/software/applications/8229-putting-together-pdf-files"&gt;linux.com&lt;/a&gt;. Being from 2004 made me suspicious that it would still work; seeing it was using Ghostscript convinced me that it would probably work. A funny side note, I use a bash alias &lt;code&gt;gs&lt;/code&gt; for &lt;code&gt;git status&lt;/code&gt; since that is a very common command in my daliy workflow. Forgetting that ghostscript&amp;rsquo;s binary is actually named &lt;code&gt;gs&lt;/code&gt; gave me a funny error related to git! So I replaced &lt;code&gt;gs&lt;/code&gt; with &amp;rsquo;&lt;code&gt;which gs&lt;/code&gt;&amp;rsquo; and the command worked wonders to join my 2 single page PDFs.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;which gs&lt;/code&gt; -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m sure I&amp;rsquo;m being dumb and there is a better tool for the job, but for putting information into a PDF and joining a couple pages this worked pretty well.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Chicago: A Trip Report</title>
   <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2016/01/16/chicago-a-trip-report/?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:https-tarobot-org-blog:-blog-blog-2016-01-16-chicago-a-trip-report</id>
-  <published>2016-01-16T08:00:00Z</published>
-  <updated>2016-01-16T08:00:00Z</updated>
+  <published>2016-01-16T00:00:00Z</published>
+  <updated>2016-01-16T00:00:00Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -89,8 +117,8 @@
   <title type="text">new git page</title>
   <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2014/08/01/new-git-page/?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:https-tarobot-org-blog:-blog-blog-2014-08-01-new-git-page</id>
-  <published>2014-08-01T20:27:56Z</published>
-  <updated>2014-08-01T20:27:56Z</updated>
+  <published>2014-08-01T13:27:56Z</published>
+  <updated>2014-08-01T13:27:56Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -102,8 +130,8 @@
   <title type="text">git4lit</title>
   <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2014/08/01/git4lit/?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:https-tarobot-org-blog:-blog-blog-2014-08-01-git4lit</id>
-  <published>2014-08-01T16:56:08Z</published>
-  <updated>2014-08-01T16:56:08Z</updated>
+  <published>2014-08-01T09:56:08Z</published>
+  <updated>2014-08-01T09:56:08Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -119,8 +147,8 @@
   <title type="text">Bash Love</title>
   <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2014/08/01/bash-love/?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:https-tarobot-org-blog:-blog-blog-2014-08-01-bash-love</id>
-  <published>2014-08-01T16:32:04Z</published>
-  <updated>2014-08-01T16:32:04Z</updated>
+  <published>2014-08-01T09:32:04Z</published>
+  <updated>2014-08-01T09:32:04Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
@@ -139,8 +167,8 @@
   <title type="text">PGD Cookbook</title>
   <link rel="alternate" href="https://tarobot.org/blog/blog/blog/2014/08/01/pgd-cookbook/?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:https-tarobot-org-blog:-blog-blog-2014-08-01-pgd-cookbook</id>
-  <published>2014-08-01T16:28:13Z</published>
-  <updated>2014-08-01T16:28:13Z</updated>
+  <published>2014-08-01T09:28:13Z</published>
+  <updated>2014-08-01T09:28:13Z</updated>
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;

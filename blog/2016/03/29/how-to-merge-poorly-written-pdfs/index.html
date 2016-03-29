@@ -3,14 +3,14 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Posts tagged 'tripreport'</title>
-    <meta name="description" content="Posts tagged 'tripreport'">
+    <title>How to merge poorly written PDFs</title>
+    <meta name="description" content="As an employee of the Apache Software Foundation I was not required to sign anything to commit code. But as a community member I thought it would be a good idea to go ahead and sign the ICLA...">
     <meta name="author"      content="The Unknown Blogger">
-    <meta name="keywords"    content="tripreport">
+    <meta name="keywords"    content="problems, solutions, software, text">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="https://tarobot.org/blog/blog/tags/tripreport.html">
-
+    <link rel="canonical" href="https://tarobot.org/blog/blog/blog/2016/03/29/how-to-merge-poorly-written-pdfs/">
+    <link rel="next" href="/blog/blog/2016/01/16/chicago-a-trip-report/">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <!-- Feeds -->
     <link ref="alternate" type="application/atom+xml"
-          href="/blog/feeds/tripreport.atom.xml" title="Atom Feed">
+          href="/blog/feeds/all.atom.xml" title="Atom Feed">
     <link ref="alternate" type="application/rss+xml"
-          href="/blog/feeds/tripreport.rss.xml" title="RSS Feed">
+          href="/blog/feeds/all.rss.xml" title="RSS Feed">
     <!-- JS -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -104,7 +104,7 @@
             <li>
               <a href="/About.html">About</a>
             </li> 
-            <li><a href="/blog/feeds/tripreport.rss.xml">RSS</a></li>
+            <li><a href="/blog/feeds/all.rss.xml">RSS</a></li>
             <li><a href="https://github.com/pono">Github</a></li>
             <li><a href="https://instagram.com/emptytriangle">Instagram</a></li>
             <li><a href="https://twitter.com/onoforpono">Twitter</a></li>
@@ -120,17 +120,42 @@
 
 
 
-          <h1>Posts tagged <em>tripreport</em></h1>
+
 
           <article>
   <header>
-    <h2><a href='/blog/blog/2016/01/16/chicago-a-trip-report/'>Chicago: A Trip Report</a></h2>
+    <h1>How to merge poorly written PDFs</h1>
     <p class='date-and-tags'>
-<time datetime="2016-01-16" pubdate="true">2016-01-16</time> :: <span class="tags"><a href="/blog/tags/travel.html">travel</a>, <a href="/blog/tags/tripreport.html">tripreport</a>, <a href="/blog/tags/chicago.html">chicago</a>, <a href="/blog/tags/food.html">food</a>, <a href="/blog/tags/people.html">people</a></span></p>
+<time datetime="2016-03-29" pubdate="true">2016-03-29</time> :: <span class="tags"><a href="/blog/tags/problems.html">problems</a>, <a href="/blog/tags/solutions.html">solutions</a>, <a href="/blog/tags/software.html">software</a>, <a href="/blog/tags/text.html">text</a></span></p>
   </header>
 
-<p>I recently came to Chicago for <a href="http://tnkfest.com/">Tomorrow Never Knows</a>. The acts I came to see where Lady Lamb, The Go Team!, and Julien Baker, in descending order of psychedness. While I came for the music  (and secretly to eat huitlacoche), there was a lot more going on that what I&rsquo;d anticipated so here&rsquo;s my trip report! Check out my Instagram for pictures from the Museum of Science and Industry and other odds and ends.</p>
-<footer class="read-more"><a href="/blog/blog/2016/01/16/chicago-a-trip-report/">&hellip;more&hellip;</a></footer>
+<p>As an employee of the <a href="https://apache.org">Apache Software Foundation</a> I was not required to sign anything to commit code. But as a community member I thought it would be a good idea to go ahead and sign the <a href="https://www.apache.org/dev/new-committers-guide.html">ICLA</a></p>
+<!-- more-->
+
+<p>The process goes something like this:</p>
+
+<ol>
+ <li>Download <a href="https://www.apache.org/licenses/icla.pdf">PDF</a></li>
+ <li>Edit and sign</li>
+ <li>Send the PDF to secretary [at] apache (dot) org</li></ol>
+
+<p>Downloading the PDF, check. I&rsquo;m a trained sysadmin so naturally I spun up a VM, installed docker, wrote a Dockerfile to download a file, virus check it against clamav, multiple online sites and then hash the file and put it in a shared volume which is NFS mounted to my laptop. Or something.</p>
+
+<p>Turns out that editing PDFs on linux is pretty much a pain in the ass but the go to seems to be GIMP. Whether I&rsquo;m bad at GIMP (this is true) or GIMP&rsquo;s UI is pretty convoluted (this is also true) I could not figure out how to edit a multipage PDF. However, when you load the PDF it asks which pages you want to import. So importing each page one at a time solved this first problem. Adding text was a simple matter of matching the font size and clicking too high on the text entry fields. Signing was also easy to make my signature look like it did when I was 5.</p>
+
+<p>Exporting each page as a PDF leaves me with 2 PDFs which I&rsquo;ll need to join. A cursory search found me this page from <a href="https://www.linux.com/news/software/applications/8229-putting-together-pdf-files">linux.com</a>. Being from 2004 made me suspicious that it would still work; seeing it was using Ghostscript convinced me that it would probably work. A funny side note, I use a bash alias <code>gs</code> for <code>git status</code> since that is a very common command in my daliy workflow. Forgetting that ghostscript&rsquo;s binary is actually named <code>gs</code> gave me a funny error related to git! So I replaced <code>gs</code> with &rsquo;<code>which gs</code>&rsquo; and the command worked wonders to join my 2 single page PDFs.</p>
+
+<p><code>which gs</code> -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf</p>
+
+<p>I&rsquo;m sure I&rsquo;m being dumb and there is a better tool for the job, but for putting information into a PDF and joining a couple pages this worked pretty well.</p>
+  <footer>
+    <ul class="pager">
+
+    <li class="next">
+      <a href="/blog/blog/2016/01/16/chicago-a-trip-report/"><em>Chicago: A Trip Report</em> &rarr;</a>
+    </li>
+    </ul>
+  </footer>
 </article>
         </div>
       </div>
