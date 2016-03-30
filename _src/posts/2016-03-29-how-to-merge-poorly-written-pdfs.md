@@ -2,9 +2,10 @@
     Date: 2016-03-29T00:00:00
     Tags: problems, solutions, software, text
 
-As an employee of the [Apache Software Foundation](https://apache.org) I was not
-required to sign anything to commit code.  But as a community member I thought
-it would be a good idea to go ahead and sign the [ICLA](https://www.apache.org/dev/new-committers-guide.html)
+As an employee of the [Apache Software Foundation](https://apache.org) I 
+obviously support the writing open source software.  But my role hasn't required
+me to commit code to anything outside of work for any Apache projects yet. But 
+as a community member I thought it would be a good idea to go ahead and sign the [ICLA](https://www.apache.org/dev/new-committers-guide.html)
 
 <!-- more -->
 
@@ -34,10 +35,10 @@ Being from 2004 made me suspicious that it would still work; seeing it was using
 Ghostscript convinced me that it would probably work.  A funny side note, I use
 a bash alias `gs` for `git status` since that is a very common command in my
 daliy workflow.  Forgetting that ghostscript's binary is actually named `gs`
-gave me a funny error related to git!  So I replaced `gs` with '`which gs`' and
+gave me a funny error related to git!  So I replaced `gs` with `\`which gs`\` and
 the command worked wonders to join my 2 single page PDFs.
 
-`which gs` -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf
+`\`which gs`\` -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf
 
 I'm sure I'm being dumb and there is a better tool for the job, but for putting
 information into a PDF and joining a couple pages this worked pretty well.

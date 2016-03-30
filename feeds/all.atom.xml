@@ -14,7 +14,7 @@
   <author>
    <name>Daniel Takamori</name></author>
   <content type="html">&lt;html&gt;
-&lt;p&gt;As an employee of the &lt;a href="https://apache.org"&gt;Apache Software Foundation&lt;/a&gt; I was not required to sign anything to commit code. But as a community member I thought it would be a good idea to go ahead and sign the &lt;a href="https://www.apache.org/dev/new-committers-guide.html"&gt;ICLA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As an employee of the &lt;a href="https://apache.org"&gt;Apache Software Foundation&lt;/a&gt; I  obviously support the writing open source software. But my role hasn&amp;rsquo;t required me to commit code to anything outside of work for any Apache projects yet. But  as a community member I thought it would be a good idea to go ahead and sign the &lt;a href="https://www.apache.org/dev/new-committers-guide.html"&gt;ICLA&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;p&gt;The process goes something like this:&lt;/p&gt;
@@ -28,9 +28,9 @@
 
 &lt;p&gt;Turns out that editing PDFs on linux is pretty much a pain in the ass but the go to seems to be GIMP. Whether I&amp;rsquo;m bad at GIMP (this is true) or GIMP&amp;rsquo;s UI is pretty convoluted (this is also true) I could not figure out how to edit a multipage PDF. However, when you load the PDF it asks which pages you want to import. So importing each page one at a time solved this first problem. Adding text was a simple matter of matching the font size and clicking too high on the text entry fields. Signing was also easy to make my signature look like it did when I was 5.&lt;/p&gt;
 
-&lt;p&gt;Exporting each page as a PDF leaves me with 2 PDFs which I&amp;rsquo;ll need to join. A cursory search found me this page from &lt;a href="https://www.linux.com/news/software/applications/8229-putting-together-pdf-files"&gt;linux.com&lt;/a&gt;. Being from 2004 made me suspicious that it would still work; seeing it was using Ghostscript convinced me that it would probably work. A funny side note, I use a bash alias &lt;code&gt;gs&lt;/code&gt; for &lt;code&gt;git status&lt;/code&gt; since that is a very common command in my daliy workflow. Forgetting that ghostscript&amp;rsquo;s binary is actually named &lt;code&gt;gs&lt;/code&gt; gave me a funny error related to git! So I replaced &lt;code&gt;gs&lt;/code&gt; with &amp;rsquo;&lt;code&gt;which gs&lt;/code&gt;&amp;rsquo; and the command worked wonders to join my 2 single page PDFs.&lt;/p&gt;
+&lt;p&gt;Exporting each page as a PDF leaves me with 2 PDFs which I&amp;rsquo;ll need to join. A cursory search found me this page from &lt;a href="https://www.linux.com/news/software/applications/8229-putting-together-pdf-files"&gt;linux.com&lt;/a&gt;. Being from 2004 made me suspicious that it would still work; seeing it was using Ghostscript convinced me that it would probably work. A funny side note, I use a bash alias &lt;code&gt;gs&lt;/code&gt; for &lt;code&gt;git status&lt;/code&gt; since that is a very common command in my daliy workflow. Forgetting that ghostscript&amp;rsquo;s binary is actually named &lt;code&gt;gs&lt;/code&gt; gave me a funny error related to git! So I replaced &lt;code&gt;gs&lt;/code&gt; with &lt;code&gt;\&lt;/code&gt;which gs&lt;code&gt;\&lt;/code&gt; and the command worked wonders to join my 2 single page PDFs.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;which gs&lt;/code&gt; -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\&lt;/code&gt;which gs&lt;code&gt;\&lt;/code&gt; -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m sure I&amp;rsquo;m being dumb and there is a better tool for the job, but for putting information into a PDF and joining a couple pages this worked pretty well.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>

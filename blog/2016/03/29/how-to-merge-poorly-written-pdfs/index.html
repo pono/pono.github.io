@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
     <title>How to merge poorly written PDFs</title>
-    <meta name="description" content="As an employee of the Apache Software Foundation I was not required to sign anything to commit code. But as a community member I thought it would be a good idea to go ahead and sign the ICLA...">
+    <meta name="description" content="As an employee of the Apache Software Foundation I  obviously support the writing open source software. But my role hasn't required me to commit code to anything outside of work for any Apache projects yet. But  as a community member I thought it would be...">
     <meta name="author"      content="The Unknown Blogger">
     <meta name="keywords"    content="problems, solutions, software, text">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -129,7 +129,7 @@
 <time datetime="2016-03-29" pubdate="true">2016-03-29</time> :: <span class="tags"><a href="/blog/tags/problems.html">problems</a>, <a href="/blog/tags/solutions.html">solutions</a>, <a href="/blog/tags/software.html">software</a>, <a href="/blog/tags/text.html">text</a></span></p>
   </header>
 
-<p>As an employee of the <a href="https://apache.org">Apache Software Foundation</a> I was not required to sign anything to commit code. But as a community member I thought it would be a good idea to go ahead and sign the <a href="https://www.apache.org/dev/new-committers-guide.html">ICLA</a></p>
+<p>As an employee of the <a href="https://apache.org">Apache Software Foundation</a> I  obviously support the writing open source software. But my role hasn&rsquo;t required me to commit code to anything outside of work for any Apache projects yet. But  as a community member I thought it would be a good idea to go ahead and sign the <a href="https://www.apache.org/dev/new-committers-guide.html">ICLA</a></p>
 <!-- more-->
 
 <p>The process goes something like this:</p>
@@ -143,9 +143,9 @@
 
 <p>Turns out that editing PDFs on linux is pretty much a pain in the ass but the go to seems to be GIMP. Whether I&rsquo;m bad at GIMP (this is true) or GIMP&rsquo;s UI is pretty convoluted (this is also true) I could not figure out how to edit a multipage PDF. However, when you load the PDF it asks which pages you want to import. So importing each page one at a time solved this first problem. Adding text was a simple matter of matching the font size and clicking too high on the text entry fields. Signing was also easy to make my signature look like it did when I was 5.</p>
 
-<p>Exporting each page as a PDF leaves me with 2 PDFs which I&rsquo;ll need to join. A cursory search found me this page from <a href="https://www.linux.com/news/software/applications/8229-putting-together-pdf-files">linux.com</a>. Being from 2004 made me suspicious that it would still work; seeing it was using Ghostscript convinced me that it would probably work. A funny side note, I use a bash alias <code>gs</code> for <code>git status</code> since that is a very common command in my daliy workflow. Forgetting that ghostscript&rsquo;s binary is actually named <code>gs</code> gave me a funny error related to git! So I replaced <code>gs</code> with &rsquo;<code>which gs</code>&rsquo; and the command worked wonders to join my 2 single page PDFs.</p>
+<p>Exporting each page as a PDF leaves me with 2 PDFs which I&rsquo;ll need to join. A cursory search found me this page from <a href="https://www.linux.com/news/software/applications/8229-putting-together-pdf-files">linux.com</a>. Being from 2004 made me suspicious that it would still work; seeing it was using Ghostscript convinced me that it would probably work. A funny side note, I use a bash alias <code>gs</code> for <code>git status</code> since that is a very common command in my daliy workflow. Forgetting that ghostscript&rsquo;s binary is actually named <code>gs</code> gave me a funny error related to git! So I replaced <code>gs</code> with <code>\</code>which gs<code>\</code> and the command worked wonders to join my 2 single page PDFs.</p>
 
-<p><code>which gs</code> -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf</p>
+<p><code>\</code>which gs<code>\</code> -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=icla.pdf icla-pg1.pdf icla-pg2.pdf</p>
 
 <p>I&rsquo;m sure I&rsquo;m being dumb and there is a better tool for the job, but for putting information into a PDF and joining a couple pages this worked pretty well.</p>
   <footer>
